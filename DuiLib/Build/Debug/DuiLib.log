@@ -1,0 +1,64 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: 面向 Windows XP 的支持已被弃用，将来的 Visual Studio 版本不再提供该支持。请访问 https://go.microsoft.com/fwlink/?linkid=2023588，获取详细信息。
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  StdAfx.cpp
+e:\duilib\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  UIWebBrowser.cpp
+  UIText.cpp
+e:\duilib\duilib\control\uitext.cpp(52): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UISlider.cpp
+e:\duilib\duilib\control\uislider.cpp(212): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+e:\duilib\duilib\control\uilist.cpp(1781): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+e:\duilib\duilib\control\uilist.cpp(2417): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UILabel.cpp
+  UIGifAnim.cpp
+e:\duilib\duilib\control\uigifanim.cpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  UIEdit.cpp
+e:\duilib\duilib\control\uiedit.cpp(288): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIDateTime.cpp
+e:\duilib\duilib\control\uidatetime.cpp(297): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+e:\duilib\duilib\control\uibutton.cpp(127): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIVerticalLayout.cpp
+e:\duilib\duilib\layout\uiverticallayout.cpp(306): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+e:\duilib\duilib\layout\uihorizontallayout.cpp(313): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  正在生成代码...
+  正在编译...
+  UIChildLayout.cpp
+  UIRender.cpp
+e:\duilib\duilib\core\uirender.cpp(1198): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UIMarkup.cpp
+  UIManager.cpp
+e:\duilib\duilib\core\uimanager.cpp(1045): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIDlgBuilder.cpp
+  UIControl.cpp
+e:\duilib\duilib\core\uicontrol.cpp(832): warning C4302: “类型强制转换”: 从“LPSTR”到“WORD”截断
+  UIContainer.cpp
+  UIBase.cpp
+  WndShadow.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  WinImplBase.cpp
+  UIlib.cpp
+  UITreeView.cpp
+  正在生成代码...
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  stb_image.c
+cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  XUnzip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\duilib\DuiLib\.\Build\Debug\DuiLib.dll) 与 Linker 的 OutputFile 属性值(E:\duilib\bin\DuiLib_d.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(DuiLib) 与 Linker 的 OutputFile 属性值(DuiLib_d)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1220,5): warning MSB8030: 链接器开关“所需的最低版本”需要设置“子系统”。   在没有“子系统”的情况下，“所需的最低版本”将无法传递到链接器，并且会阻止在旧版操作系统上运行输出二进制文件。
+    正在创建库 ../lib/DuiLib_d.lib 和对象 ../lib/DuiLib_d.exp
+  DuiLib.vcxproj -> E:\duilib\DuiLib\.\Build\Debug\DuiLib.dll
