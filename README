@@ -1,0 +1,19 @@
+#2019/6/18
+#	stopwatch first commit
+#	实现了秒表基本功能：
+#	启动、停止、计次、复位
+#	TODO：加入数据库记录计次数据
+#2019/6/19
+#	stopwatch second commit
+#	实现了记录的数据库读取和存储功能
+#	TODO：
+#		raw ptr->smart ptr
+#		insert 放在子线程执行
+#		分模块
+#
+#2019/6/19
+#	stopwatch third commit
+#	DONE:
+#		raw ptr->smart ptr
+#		子线程实现insert
+#		文件分模块

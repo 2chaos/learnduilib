@@ -1,21 +1,46 @@
-﻿// stdafx.h: 标准系统包含文件的包含文件，
-// 或是经常使用但不常更改的
-// 项目特定的包含文件
-//
-
-#pragma once
-
-#include "targetver.h"
-
-#define WIN32_LEAN_AND_MEAN             // 从 Windows 头文件中排除极少使用的内容
-// Windows 头文件
+﻿#pragma once
+#define WIN32_LEAN_AND_MEAN
+#define _CRT_SECURE_NO_DEPRECATE
 #include <windows.h>
-
-// C 运行时头文件
+#include <objbase.h>
 #include <stdlib.h>
-#include <malloc.h>
-#include <memory.h>
-#include <tchar.h>
+#include <memory>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include <queue>
+#include <string>
+#include "DuiLib\UIlib.h"
+#include "sqlite3.h"
+# pragma comment(lib,"lib\\sqlite3.lib")
+#ifdef _DEBUG
+# ifdef _UNICODE
+# pragma comment(lib, "lib\\DuiLib_ud.lib")
+# else
+# pragma comment(lib, "lib\\DuiLib_d.lib")
+# endif
+#else
+# ifdef _UNICODE
+# pragma comment(lib, "lib\\DuiLib_u.lib")
+# else
+# pragma comment(lib, "lib\\DuiLib.lib")
+# endif
+#endif
+using namespace DuiLib;
 
+constexpr auto ID_Timer = 1;
+struct recordRow {
+	string num;
+	string timestr;
+	recordRow(string _num, string _timestr) :num(_num), timestr(_timestr) {}
+};
 
-// 在此处引用程序需要的其他标头
+extern HWND hWnd;
+extern sqlite3* recHistory;
+extern bool isTableExisted;
+extern bool isWindowClosed;
+extern vector<shared_ptr<recordRow>> records, newRecords;
+extern int recordsIdx;
+extern int recordsSize;
+extern string tableName;
+extern std::queue<string> tasks;

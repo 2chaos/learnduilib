@@ -27,12 +27,24 @@
     <ClInclude Include="learnduilib.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="FrameWindowWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sqliteFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="learnduilib.cpp">
+    <ClCompile Include="FrameWindowWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sqliteFunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
